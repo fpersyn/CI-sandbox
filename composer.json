@@ -1,0 +1,6 @@
+{
+	"_comment": "All dependencies that shouldn't be installed on production",
+	"require-dev": {
+		"phpunit/phpunit": "5.1.3"
+	}
+}
