@@ -29,10 +29,10 @@ class Guestbook
 		// Simulate insertion into the DB by adding a new record into $_entries
 		
 		// Correct way to do it :
-		//self::$_entries[] = array('name' => $name, 'message' => $message);
+		self::$_entries[] = array('name' => $name, 'message' => $message);
 
 		// Buggy version for demonstration purposes :
-		self::$_entries[] = array('notname' => $name, 'notmessage' => $message);
+		//self::$_entries[] = array('notname' => $name, 'notmessage' => $message);
 
 		return true;
 	}
