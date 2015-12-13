@@ -5,7 +5,7 @@
 
 	class TestGuestbook extends UnitTestCase {
 
-		public function TestViewGuestbookWithEntreis()
+		public function TestViewGuestbookWithEntries()
 		{
 			$guestbook = new Guestbook();
 
