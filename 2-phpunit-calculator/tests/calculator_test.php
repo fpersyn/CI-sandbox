@@ -1,8 +1,7 @@
 <?php
 
-/**
-* 
-*/
+require('classes/calculator.php');
+
 class CalculatorTest extends PHPUnit_Framework_TestCase
 {
 	
